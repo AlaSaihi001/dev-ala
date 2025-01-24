@@ -18,7 +18,10 @@ const spaceGroTesk = SpaceGrotesk({
 
 export const metadata: Metadata = {
   title: "DevAla",
-  description: "Better Version of Stack Overflow",
+  description: "A community-driven platform for asking and answering programming questions Get help, share knowledge , and collaborate with developers from around the world",
+  icons: {
+    icon: '/images/site-logo.svg'
+  }
 };
 
 export default function RootLayout({
