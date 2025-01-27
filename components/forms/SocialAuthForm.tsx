@@ -23,7 +23,7 @@ const SocialAuthForm = () => {
         description:
           error instanceof Error
             ? error.message
-            : "An error Accured during Sign-in",
+            : "An error Occured during Sign-in",
         variant: "destructive",
       });
     }
